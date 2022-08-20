@@ -2,9 +2,9 @@ import java.awt.Color;
 
 public class Ball extends Sprite{
 	
-	private final static Color BALL_COLOUR = Color.black;
-	private final static int BALL_WIDTH = 25;
-	private final static int BALL_HEIGHT = 25;
+	private final static Color BALL_COLOUR = Color.red;
+	private final static int BALL_WIDTH = 35;
+	private final static int BALL_HEIGHT = 35;
 	
 	public Ball(int panelWidth, int panelHeight) {
 		setColour(BALL_COLOUR);
